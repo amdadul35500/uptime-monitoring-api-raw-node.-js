@@ -1,0 +1,12 @@
+{
+  "name": "raw_node_api_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Amdadul haque",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "start": "SET NODE_ENV=staging& nodemon index.js",
+    "production": "SET NODE_ENV=production& nodemon index.js"
+  }
+}
